@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Project 2 — Event-Driven E-Store Simulation by Kyle French.">
+  <title>Project 2 — Kyle French</title>
+  <link rel="stylesheet" href="/css/styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#content">Skip to content</a>
+  <div class="site">
+    <header>
+      <img src="/assets/profile.jpg" width="120" height="120" alt="Professional headshot of Kyle French">
+      <div>
+        <h1>Kyle French</h1>
+        <p class="meta">
+          <a href="/">Resume</a> · 
+          <a href="/project-1.html">Project 1</a> · 
+          <a href="/project-2.html" aria-current="page">Project 2</a>
+        </p>
+      </div>
+    </header>
+
+    <main id="content">
+      <article aria-labelledby="title">
+        <h2 id="title">Project 2: Event-Driven E-Store Simulation</h2>
+
+        <figure>
+          <img src="/assets/project2.jpg" width="800" height="450" alt="Java GUI e-store simulation">
+          <figcaption>Java program simulating a simple e-store checkout system.</figcaption>
+        </figure>
+
+        <p><strong>Summary:</strong> For this project I created a small desktop program in Java that simulates an online store. The app lets a user add items to a cart, update quantities, and go through a basic checkout. It also calculates tax and gives a receipt at the end. This was mainly practice in event-driven programming and using Swing to build a working GUI.</p>
+
+        <h3>What I Did</h3>
+        <ul>
+          <li>Built a Java Swing interface with windows for browsing items and managing the shopping cart.</li>
+          <li>Wired up event handlers so that buttons (like “Add to Cart” or “Checkout”) actually triggered the right actions.</li>
+          <li>Made the program output a receipt that included item totals, sales tax, and a final balance.</li>
+        </ul>
+
+        <h3>Tech & Skills</h3>
+        <ul>
+          <li>Java with Swing (GUI design and event handling)</li>
+          <li>Event-driven programming basics</li>
+          <li>Working with transactions and simple logging</li>
+        </ul>
+      </article>
+    </main>
+
+    <footer>
+      <small>&copy; <span id="year">2025</span> Kyle French</small>
+    </footer>
+  </div>
+  <script>document.getElementById('year').textContent = new Date().getFullYear()</script>
+</body>
+</html>
