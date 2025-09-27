@@ -44,11 +44,11 @@ header .meta {
   font-size: 0.9rem;
 }
 
-nav[aria-label="Primary"] {
+nav {
   margin-top: 0.5rem;
 }
 
-nav[aria-label="Primary"] a {
+nav a {
   margin-right: 1rem;
   text-decoration: none;
   color: var(--accent);
@@ -100,18 +100,4 @@ footer {
   border-top: 1px solid var(--border);
   color: var(--meta);
   font-size: 0.8rem;
-}
-
-.skip-link {
-  position: absolute;
-  top: -40px;
-  left: 0;
-  background: var(--accent);
-  color: #fff;
-  padding: 8px;
-  z-index: 100;
-}
-
-.skip-link:focus {
-  top: 0;
 }
