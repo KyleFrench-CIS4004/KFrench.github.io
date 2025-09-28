@@ -101,3 +101,9 @@ footer {
   color: var(--meta);
   font-size: 0.8rem;
 }
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
